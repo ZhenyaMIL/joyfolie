@@ -1133,12 +1133,6 @@
               "footer_linklist": "need-help"
             }
           },
-          "69153857-5310-46ce-bf09-acd63680a08f": {
-            "type": "social_icons",
-            "settings": {
-              "show_social_icons": false
-            }
-          },
           "776a6744-2f6c-4bea-951b-2795a4eea287": {
             "type": "newsletter_form",
             "settings": {
@@ -1150,7 +1144,6 @@
           "1483145109201",
           "52883245-be55-4cd8-a145-06f46f6742e7",
           "ee4ccb4a-793c-4423-896f-435bfeaa1823",
-          "69153857-5310-46ce-bf09-acd63680a08f",
           "776a6744-2f6c-4bea-951b-2795a4eea287"
         ],
         "settings": {
