@@ -1,0 +1,83 @@
+{% comment %}
+** Featured collection - dynamic **
+- Draggable section
+{% endcomment %}
+
+{% if type == 'block' %}
+  {%- assign object = block -%}
+{% else %}
+  {%- assign object = section -%}
+{% endif %}
+
+{% comment %} Content settings {% endcomment %}
+{%- assign limit = object.settings.products_limit -%}
+{%- assign view_all = object.settings.view_all -%}
+{% comment %} End content settings {% endcomment %}
+
+{% comment %} Stick to grid layout if the number of items is less than the max in the row {% endcomment %}
+{% assign layout_type = 'grid' %}
+{% if object.settings.products_per_row < collection.products.size %}
+  {% assign layout_type = layout %}
+{% endif %}
+
+
+
+
+{% comment %} HTML markup {% endcomment %}
+<section
+  class="
+    featured-collection
+  "
+  data-section-id="{{ object.id }}"
+>
+
+    <div
+      class="
+        featured-collection__wrapper
+        featured-collection__wrapper--{{ object.settings.products_per_row}}-column
+        featured-collection__wrapper--{{ settings.mobile_products_per_row }}-mobile-column
+        featured-collection__wrapper--layout-{{ layout_type }}
+      "
+    >
+      {% if layout_type == 'slideshow' %}
+        <div
+          class="featured-collection__slideshow-wrapper"
+          data-collection-slideshow
+        >
+      {% endif %}
+
+      {% if collection.products.size > 0 %}
+
+        {% for product in collection.products limit: limit %}
+          {% render 'product-thumbnail', product: product %}
+        {% endfor %}
+
+      {% else %}
+        {% for i in (1..limit) %}
+          {% capture num %}{% cycle "1", "2", "3", "5", "6" %}{% endcapture %}
+          {%
+            render 'product-thumbnail',
+            product: null,
+            num: num
+          %}
+        {% endfor %}
+      {% endif %}
+
+      {% if layout_type == 'slideshow' %}
+        </div>
+      {% endif %}
+
+    </div>
+
+    {% if view_all != false %}
+        <div class="section-collection-tabs-footer">
+            <a href="{{ collection.url }}" class="featured-collection__shop-all">
+                Shop All
+            </a>
+        </div>
+    {% endif %}
+
+  {% if sidebar %}
+    </div>
+  {% endif %}
+</section>

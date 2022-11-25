@@ -1,0 +1,139 @@
+{% comment %}
+** Tabs for collections - dynamic **
+- Draggable section
+{% endcomment %}
+
+{% if section.settings.enable_tabs %}
+    <script
+            type="application/json"
+            data-section-type="featured-collection"
+            data-section-id="{{ object.id }}"
+            data-section-data
+    >
+      {
+        "products_per_row" : {{ object.settings.products_per_row | json }},
+        "products_limit": {{ object.settings.products_limit | json }},
+        "show_secondary_media": {{ settings.collection_secondary_image | json }}
+      }
+    </script>
+  
+    <section class="section section-{{section.id}}">
+        {%- if section.settings.tab_title != blank -%}
+            <header class="TabSectionHeader hidden-phone">
+                <span>{{ section.settings.tab_title | escape }}</span>
+            </header>
+          {%- endif -%}
+        <div class="tab_container">
+            <div class="tabs">
+                <ul class="tabs-header-links">
+                    {% for block in section.blocks %}
+                        <li><a href="#">{{ block.settings.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                <div>
+                    {% for block in section.blocks %}
+                        <div>
+                            {% if block.settings.collection != blank %}
+                                {% render 'include-collection-tabs-single',
+                                        collection:block.settings.collection, layout:block.settings.layout_type %}
+                            {% else %}
+                                {{ block.settings.title }} -> empty or no collection selected
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="application/javascript">
+        window.addEventListener('DOMContentLoaded', function() {
+            (function () {
+                enableTabs(document.querySelector('.tabs'));
+            })();
+        });
+    </script>
+
+ 
+
+    {% style %}
+    {%- assign fonts_headline__font_family = settings.headline__font.family | append: ',' | append: settings.headline__font.fallback_families -%}
+    {%- assign fonts_headline__font_style = settings.headline__font.style -%}
+    {%- assign fonts_headline__font_weight = settings.headline__font.weight | times: 1 -%}
+    {{ settings.headline__font | font_face: font_display: fonts_headline__font_display }}
+
+        .tabs ul.tabs-header-links{
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tabs ul.tabs-header-links li {
+            padding: 0 15px;
+            margin-bottom: 0;
+        }
+
+        .tabs ul.tabs-header-links li a{
+            display: inline-block;
+            padding-bottom: 0;
+            text-decoration: none !important;
+            text-transform: uppercase !important;
+            letter-spacing: 0.2rem;
+            transition: color 0.2s ease-in-out;
+            margin: 0 auto;
+            text-transform: none;
+            letter-spacing: 0;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #fff;
+            font-weight: normal; 
+            font-family: {{ fonts_headline__font_family }};
+            font-size: {{ settings.featured_tab_font_size | divided_by: base_size_float | append: 'rem' }};
+            color: {{ settings.tab_color }};
+        }
+
+        .tabs ul li a.active{
+            color: {{ settings.tab_active_color }} !important;
+            border-bottom: 1px solid #AF7B6E;
+        }
+
+        .tabs > div > div{
+            display: none;
+        }
+
+        .tabs > div > div.active{
+            display: block;
+        }
+
+        .section-collection-tabs-footer {
+            width: 100%;
+            display: flex;
+            text-align: center;
+            margin: 5rem 0;
+        }
+
+        .featured-collection__shop-all {
+            margin: 0 auto;
+            text-align: center;
+            background-color: #AF7B6E;
+            padding: 10px 60px;
+            color: #fff !important;
+            text-decoration: none !important;
+            font-size: 14px;
+            transition: border-color 0.2s ease-out, background-color 0.2s ease-out, color 0.2s ease-out, box-shadow 0.2s ease-out;
+            padding: 0.7rem 3rem;
+        }
+        .TabSectionHeader {
+            color:  {{ settings.tab_color }};
+            font-family: {{ fonts_headline__font_family }};
+            text-align: center;
+            letter-spacing: .2em;
+            margin-bottom:20px;
+            -webkit-transition: color .2s ease-in-out;
+            transition: color .2s ease-in-out;
+        }
+    {% endstyle %}
+
+{% endif %}

@@ -1,0 +1,410 @@
+{
+  "sections": {
+    "slideshow-1": {
+      "type": "slideshow",
+      "blocks": {
+        "block-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Holiday_Neautrals_-_Banners_-_OCT_2022_Desktop_4_933b0ea3-dc2a-429e-bb24-323fdeedd367.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Holiday_Neautrals_-_Banners_-_OCT_2022_Mobile_4_db9d034b-cbed-4606-a546-1e0197cef7e9.jpg",
+            "focal_point": "center",
+            "title": "",
+            "subtext": "",
+            "text_position": "center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "overlay_text_color": "#ffffff",
+            "link": "",
+            "button_label": "",
+            "button_link": "\/collections\/new",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "block-1"
+      ],
+      "settings": {
+        "wide_display": true,
+        "slideshow_height": "large",
+        "slideshow_mobile_height": "original",
+        "navigation_style": "dots",
+        "slideshow_animation": "fade",
+        "slideshow_speed": 6
+      }
+    },
+    "gallery-1": {
+      "type": "gallery",
+      "disabled": true,
+      "blocks": {
+        "block-1": {
+          "type": "image",
+          "settings": {}
+        },
+        "block-2": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2"
+      ],
+      "settings": {
+        "title": "Gallery",
+        "gallery_type": "grid",
+        "images_per_row": 2,
+        "wide_display": true
+      }
+    },
+    "featured-text-1": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "wide_display": true,
+        "title": "HOLIDAY 2022",
+        "content": "",
+        "text_size": "regular_text",
+        "text_alignment": "center",
+        "button_label": "",
+        "button_link": "",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "eb109a61-5c54-4ad8-8f8c-dea29eb34386": {
+      "type": "collection-tabs",
+      "blocks": {
+        "template--14458798407738__eb109a61-5c54-4ad8-8f8c-dea29eb34386-1667350992f6e31ec5-0": {
+          "type": "tab",
+          "settings": {
+            "title": "Women",
+            "layout_type": "grid",
+            "collection": "new-womens"
+          }
+        },
+        "template--14458798407738__eb109a61-5c54-4ad8-8f8c-dea29eb34386-1667350992f6e31ec5-1": {
+          "type": "tab",
+          "settings": {
+            "title": "Girls",
+            "layout_type": "grid",
+            "collection": "new-girls"
+          }
+        },
+        "template--14458798407738__eb109a61-5c54-4ad8-8f8c-dea29eb34386-1667350992f6e31ec5-2": {
+          "type": "tab",
+          "settings": {
+            "title": "Little Girls",
+            "layout_type": "grid",
+            "collection": "new-little-girls"
+          }
+        }
+      },
+      "block_order": [
+        "template--14458798407738__eb109a61-5c54-4ad8-8f8c-dea29eb34386-1667350992f6e31ec5-0",
+        "template--14458798407738__eb109a61-5c54-4ad8-8f8c-dea29eb34386-1667350992f6e31ec5-1",
+        "template--14458798407738__eb109a61-5c54-4ad8-8f8c-dea29eb34386-1667350992f6e31ec5-2"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "tab_title": "HOLIDAY 2022",
+        "products_per_row": 4,
+        "products_limit": 4,
+        "view_all": true
+      }
+    },
+    "c60ded97-fe19-4394-9ae9-9a14bc97972c": {
+      "type": "video",
+      "settings": {
+        "wide_display": true,
+        "aspect_ratio": "16:9",
+        "autoplay": true,
+        "autoloop": true,
+        "mute_video": true,
+        "video_dark_overlay": false,
+        "video": "",
+        "html5_video": "https:\/\/res.cloudinary.com\/alfredintel\/video\/upload\/v1666768349\/joyfolie\/pnbkob7kxjl7ua1jossl.mp4",
+        "display_text_over_video": false,
+        "heading": "",
+        "subtext": "",
+        "text_position": "center",
+        "enable_text_shadow": false,
+        "overlay_opacity": 35,
+        "overlay_color": "#000000",
+        "overlay_text_color": "#ffffff",
+        "button_label": "Button",
+        "link": ""
+      }
+    },
+    "1a58598f-0f82-4f14-8b79-c323e155b977": {
+      "type": "featured-product",
+      "blocks": {
+        "template--14409205612602__1a58598f-0f82-4f14-8b79-c323e155b977-1666882640e8f522bf-0": {
+          "type": "title",
+          "settings": {}
+        },
+        "template--14409205612602__1a58598f-0f82-4f14-8b79-c323e155b977-1666882640e8f522bf-1": {
+          "type": "price",
+          "settings": {}
+        },
+        "template--14409205612602__1a58598f-0f82-4f14-8b79-c323e155b977-1666882640e8f522bf-3": {
+          "type": "form",
+          "settings": {}
+        },
+        "template--14409205612602__1a58598f-0f82-4f14-8b79-c323e155b977-1666882640e8f522bf-2": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--14409205612602__1a58598f-0f82-4f14-8b79-c323e155b977-1666882640e8f522bf-0",
+        "template--14409205612602__1a58598f-0f82-4f14-8b79-c323e155b977-1666882640e8f522bf-1",
+        "template--14409205612602__1a58598f-0f82-4f14-8b79-c323e155b977-1666882640e8f522bf-3",
+        "template--14409205612602__1a58598f-0f82-4f14-8b79-c323e155b977-1666882640e8f522bf-2"
+      ],
+      "settings": {
+        "title": "THE IMPACT DRESS",
+        "featured_product": "june-impact-dress-in-deep-ocean",
+        "enable_thumbnails": "disabled",
+        "gallery_arrows": false,
+        "enable_product_lightbox": false,
+        "activate_zoom": false,
+        "slideshow_speed": 4,
+        "slideshow_transition": "slide",
+        "thumbnail_position": "bottom-thumbnails",
+        "crop_thumbnails": false,
+        "enable_thumbnail_slider": true,
+        "show_payment_button": false,
+        "product_images_position": "left",
+        "set_product_height": false,
+        "product_height": 500,
+        "video_looping": false
+      }
+    },
+    "image-text-1": {
+      "type": "image-text",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/30off.png",
+        "image_position": "right",
+        "image_focal_point": "center",
+        "desktop_image_height": "original",
+        "mobile_image_height": "original",
+        "title": "30% OFF",
+        "title_font__size": 70,
+        "text": "<p>with code: <strong>TAKE30OFF<\/strong><\/p>",
+        "text_font__size": 27,
+        "text_align": "center",
+        "button_label": "Shop Now",
+        "button_disclaimer": "*excludes select products",
+        "link": "shopify:\/\/collections\/30-off",
+        "text_color": "#ffffff",
+        "background_color": "#dec8c0"
+      }
+    },
+    "divider-1": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 0,
+        "divider_border": false
+      }
+    },
+    "divider-2": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 0,
+        "divider_border": false
+      }
+    },
+    "featured-promotions-1": {
+      "type": "featured-promotions",
+      "disabled": true,
+      "blocks": {
+        "block-1": {
+          "type": "promotion",
+          "settings": {
+            "title": "Promotion",
+            "content": "<p>Include the details of your promo here.<\/p>",
+            "overlay": "solid",
+            "show_background": false,
+            "background_link": "",
+            "button_text": "Shop now",
+            "link": "",
+            "button_style": "tertiary",
+            "button_text2": "",
+            "link2": "",
+            "button_style2": "tertiary",
+            "position": "center",
+            "alignment": "center"
+          }
+        },
+        "block-2": {
+          "type": "promotion",
+          "settings": {
+            "title": "Promotion",
+            "content": "<p>Include the details of your promo here.<\/p>",
+            "overlay": "solid",
+            "show_background": false,
+            "background_link": "",
+            "button_text": "Shop now",
+            "link": "",
+            "button_style": "secondary",
+            "button_text2": "",
+            "link2": "",
+            "button_style2": "tertiary",
+            "position": "center",
+            "alignment": "center"
+          }
+        },
+        "block-3": {
+          "type": "promotion",
+          "settings": {
+            "title": "Promotion",
+            "content": "<p>Include the details of your promo here.<\/p>",
+            "overlay": "solid",
+            "show_background": false,
+            "background_link": "",
+            "button_text": "Shop now",
+            "link": "",
+            "button_style": "tertiary",
+            "button_text2": "",
+            "link2": "",
+            "button_style2": "tertiary",
+            "position": "center",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "features_per_row": 3
+      }
+    },
+    "divider-3": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 0,
+        "divider_border": false
+      }
+    },
+    "testimonial-1": {
+      "type": "testimonial",
+      "blocks": {
+        "block-1": {
+          "type": "quote",
+          "settings": {
+            "star_rating": "5",
+            "testimonial": "<p>Include some of your favorite customer quotes and feedback here as social proof, to build credibility and trust for your services and products.<\/p>",
+            "name": "Author name",
+            "info": ""
+          }
+        },
+        "block-2": {
+          "type": "quote",
+          "settings": {
+            "star_rating": "5",
+            "testimonial": "<p>Include some of your favorite customer quotes and feedback here as social proof, to build credibility and trust for your services and products.<\/p>",
+            "name": "Author name",
+            "info": ""
+          }
+        },
+        "block-3": {
+          "type": "quote",
+          "settings": {
+            "star_rating": "5",
+            "testimonial": "<p>Include some of your favorite customer quotes and feedback here as social proof, to build credibility and trust for your services and products.<\/p>",
+            "name": "Author name",
+            "info": ""
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3"
+      ],
+      "settings": {
+        "title": "Customer Reviews",
+        "image_crop": "original",
+        "desktop_navigation_style": "buttons"
+      }
+    },
+    "blog-post-1": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "BLOG POSTS",
+        "blog_widget_select": "blogfolie",
+        "article_count": "2",
+        "blog_tags": false,
+        "blog_author": false,
+        "blog_date": true,
+        "blog_comment_count": false,
+        "read_more_link": true
+      }
+    },
+    "divider-4": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 0,
+        "divider_border": false
+      }
+    },
+    "newsletter-1": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "wide_display": true,
+        "title": "Newsletter",
+        "subheading": "Sign up to get the latest on sales, new releases and more …",
+        "newsletter_richtext": "",
+        "display_first_name": false,
+        "display_last_name": false,
+        "text_align": "center",
+        "newsletter_background": "#ffffff",
+        "newsletter_text": "#303030"
+      }
+    },
+    "a28671a3-272e-4fb0-b285-c60ff87c886e": {
+      "type": "featured-text",
+      "settings": {
+        "wide_display": true,
+        "title": "FOLLOW US ON INSTAGRAM",
+        "content": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "button_label": "",
+        "button_link": "https:\/\/www.instagram.com\/joyfolie",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c4abbcd9-a005-42c6-89fc-d3662b18d855": {
+      "type": "custom-html",
+      "settings": {
+        "custom_html": "<covet-pics-widget gallery-embed-id=\"189279\"><\/covet-pics-widget>"
+      }
+    }
+  },
+  "order": [
+    "slideshow-1",
+    "gallery-1",
+    "featured-text-1",
+    "eb109a61-5c54-4ad8-8f8c-dea29eb34386",
+    "c60ded97-fe19-4394-9ae9-9a14bc97972c",
+    "1a58598f-0f82-4f14-8b79-c323e155b977",
+    "image-text-1",
+    "divider-1",
+    "divider-2",
+    "featured-promotions-1",
+    "divider-3",
+    "testimonial-1",
+    "blog-post-1",
+    "divider-4",
+    "newsletter-1",
+    "a28671a3-272e-4fb0-b285-c60ff87c886e",
+    "c4abbcd9-a005-42c6-89fc-d3662b18d855"
+  ]
+}

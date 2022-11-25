@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "8444f24c-fab4-4b82-960b-314ee1adb60a": {
+      "type": "image-with-text-overlay-section",
+      "settings": {
+        "wide_display": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Holiday_Neautrals_-_Banners_-_OCT_2022_Desktop_4_933b0ea3-dc2a-429e-bb24-323fdeedd367.jpg",
+        "focal_point": "center",
+        "title": "",
+        "text": "",
+        "text_position": "center",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "overlay_text_color": "#ffffff",
+        "button_label": "",
+        "link": "",
+        "button_style": "primary"
+      }
+    },
+    "5a35f3c3-353f-419e-8cfc-f4e117151885": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14458798178362__5a35f3c3-353f-419e-8cfc-f4e117151885-1667754958892ae780-0": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "new-womens",
+            "image": "shopify:\/\/shop_images\/shopNewWomans2022.jpg"
+          }
+        },
+        "template--14458798178362__5a35f3c3-353f-419e-8cfc-f4e117151885-1667754958892ae780-1": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "new-girls",
+            "image": "shopify:\/\/shop_images\/Holiday_Neautrals_-_Banners_-_OCT_2022_Category_Girl_s_82c4ac27-9493-4c30-b8a7-46b7094e0b73.jpg"
+          }
+        },
+        "template--14458798178362__5a35f3c3-353f-419e-8cfc-f4e117151885-1667754958892ae780-2": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "new-little-girls",
+            "image": "shopify:\/\/shop_images\/Holiday_Neautrals_-_Banners_-_OCT_2022_Category_Little_Girl_s_a1ebc6b4-3fd5-40c0-94c1-e1d2b92b8ae2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--14458798178362__5a35f3c3-353f-419e-8cfc-f4e117151885-1667754958892ae780-0",
+        "template--14458798178362__5a35f3c3-353f-419e-8cfc-f4e117151885-1667754958892ae780-1",
+        "template--14458798178362__5a35f3c3-353f-419e-8cfc-f4e117151885-1667754958892ae780-2"
+      ],
+      "settings": {
+        "title": "",
+        "frontpage_collections_per_row": 3,
+        "frontpage_collections_title": false,
+        "collection_count": false
+      }
+    },
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "8444f24c-fab4-4b82-960b-314ee1adb60a",
+    "5a35f3c3-353f-419e-8cfc-f4e117151885",
+    "main"
+  ]
+}

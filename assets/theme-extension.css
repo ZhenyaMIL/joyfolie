@@ -1,0 +1,111 @@
+.expand-7th .flex-item:nth-of-type(7),
+.expand-7th .flex-item:nth-of-type(16),
+.expand-7th .flex-item:nth-of-type(25),
+.expand-7th .flex-item:nth-of-type(34) {
+    grid-column: span 2;
+}
+
+.site-header {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.price-with-code {
+    padding: 4px 5px;
+    background: #FAEDEC;
+    color: #C94B45;
+    display: inline;
+    font-size: 14px;
+}
+
+.footer__icon--1--1:before {
+    background: url(//cdn.shopify.com/s/files/1/0112/9896/3514/t/56/assets/icons.png?v=13843829061757077071608713543) -10px -69px;
+}
+
+.footer__icon--1--2:before {
+    background: url(//cdn.shopify.com/s/files/1/0112/9896/3514/t/56/assets/icons.png?v=13843829061757077071608713543) -50px -109px;
+}
+
+.footer__icon--1--3:before {
+    background: url(//cdn.shopify.com/s/files/1/0112/9896/3514/t/56/assets/icons.png?v=13843829061757077071608713543) -110px -50px;
+}
+
+.footer__icon--1--4:before {
+    background: url(//cdn.shopify.com/s/files/1/0112/9896/3514/t/56/assets/icons.png?v=13843829061757077071608713543) -110px -10px;
+}
+
+.footer__icon--2--1:before {
+    background: url(//cdn.shopify.com/s/files/1/0112/9896/3514/t/56/assets/icons.png?v=13843829061757077071608713543) -10px -109px;
+}
+
+.footer__icon--2--2:before {
+    background: url(//cdn.shopify.com/s/files/1/0112/9896/3514/t/56/assets/icons.png?v=13843829061757077071608713543) -90px -109px;
+}
+
+.footer__icon--2--3:before {
+    background: url(//cdn.shopify.com/s/files/1/0112/9896/3514/t/56/assets/icons.png?v=13843829061757077071608713543) -150px -10px;
+}
+
+.footer__icon--2--4:before {
+    background: url(//cdn.shopify.com/s/files/1/0112/9896/3514/t/56/assets/icons.png?v=13843829061757077071608713543) -50px -69px;
+}
+
+.footer__icon {
+    margin-left: 25px;
+    position: relative;
+}
+
+.footer__icon:before {
+    height: 20px;
+    left: -25px;
+    opacity: 1;
+    position: absolute;
+    top: 1px;
+    width: 20px;
+    content: "";
+    display: inline-block;
+    transition: opacity .1s ease-in-out;
+}
+
+.text-brown {
+    color: #79695c!important;
+    font-family: "Crimson Text", serif;
+}
+
+.currency {
+    color: rgb(121, 105, 92)!important;
+    font-family: "Crimson Text", serif;
+}
+
+.text-discount {
+    font-size: 72px!important;
+    line-height: 80px!important;
+    font-weight: 400!important;
+    font-family: "Crimson Text", serif;
+    margin-top: 50px!important;
+}
+
+.shop-button {
+    font-size: 14px!important;
+    line-height: 24px!important;
+    font-weight: 500!important;
+    font-family: "Avenir Next", sans-serif;
+}
+
+.text-disclaimer{
+    font-size: 14px!important;
+    line-height: 24px!important;
+    font-weight: 400!important;
+    font-family: "Avenir Next", sans-serif;
+    margin-top: 32px!important;
+}
+
+@media screen and (min-width: 1024px) {
+    .text-discount{
+        font-size: 84px!important;
+    }
+
+    .text-disclaimer{
+        font-size: 18px!important;
+    }
+}
